@@ -1,0 +1,93 @@
+@media screen and (max-width: 400px) {
+    .register-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 300px !important;
+        height: 500px;
+    }
+}
+
+.login-header{
+   
+    display: flex;
+  
+    height: 350px;
+}
+
+.register-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 400px;
+    height: 500px;
+}
+
+.register-header > form {
+    margin-bottom: 50px;
+}
+
+.button-edit{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.loader{
+    vertical-align: middle;
+}
+
+.not-allowed {cursor: not-allowed !important;}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+button{
+   background: #00c9b7 !important;
+}
+
+
+.forgotPassword, .forgotPassword > .card-content, .card-content > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Input style color*/
+
+.error{
+    font-weight: bold;
+    font-size: 11px;
+    color: #FF0000;
+}
+
+::-webkit-input-placeholder {
+    color: #9CA2A5 !important;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: #9CA2A5 !important;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #9CA2A5 !important;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: #9CA2A5 !important;  
+ }
+
+ #success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+ }
